@@ -5,7 +5,7 @@ from torcheval.metrics.text import Perplexity
 
 
 def get_perplexity(input: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
-    metric = Perplexity(ignore_index=0)
+    metric = Perplexity()
 
     metric.update(input, target)
     out = metric.compute()
