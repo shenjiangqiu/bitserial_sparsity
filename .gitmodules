@@ -1,3 +1,7 @@
 [submodule "extern/transformers"]
 	path = extern/transformers
 	url = https://github.com/shenjiangqiu/transformers.git
+[submodule "extern/sparQ"]
+	path = extern/sparQ
+	url = https://github.com/shenjiangqiu/sparq.git
+	branch = sjq
